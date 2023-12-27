@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="css/landingpage.css">
+  <style type="text/css">
+    *{padding: 0; box-sizing: border-box;}
+    header{ 
+        width: 100%;
+        height: 100vh;
+        background: url('./images/greenary.jpg');
+        background-size: cover;
+        font-family: sans-serif;
+    }
+    nav{
+        width: 100%;
+        height: 100vh;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        font-size: 15px;
+    }   
+    
+    .logo{
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-size: 2em;
+    }
+    .register a{
+        text-decoration: none;
+        background-color: indianred;
+        color: white;
+        padding: 10px 20px;
+        font-size: 25px;
+    }
+    .h-text{
+        max-width: 650px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+    .h-text span{
+        font-size: 1.5em;
+        font-weight: none;
+        font-family:verdana;
+
+    }
+    .h-text h1{
+        font-size: 3.5em;
+        font-weight: bold;
+        font-family: times;
+        font-style: italic;
+
+    }
+    .h-text a{
+        text-decoration: underline;
+        font-size: 1.5em;
+        color:white;
+        font-weight:400;
+        background-color:indianred;
+
+    }
+    img{
+        top: 40%;
+        left: 30%;
+        transform: translate(15%, -190%);
+        width: "1px";
+        height: "1px";
+
+    }
+    .plane{
+        top: 40%;
+        left: 30%;
+        transform: translate(70%, -100%);
+        width: "1px";
+        height: "1px";
+
+    }
+    form{
+        background-color: white;
+        text-align:center;
+        transform: translate(-50%, 50%);
+    s
+        
+
+    }
+</style>
+</head>
+
+<body>
+   <header>
+    <h1 style="color: black; text-align: center; font-size: 300%; font-style: italic; font-family: Georgia";>Go Nature</h1>
+    <p style="text-align: center; font-size:150%">Take only memories, leave only footprints</p>
+        <nav>
+                <div class="logo">Go Nature</div>
+                <div class="menu">
+                     <a href="#">Home</a>
+                     <a href="#">Hill stations</a>
+                     <a href="#">Best offers</a>
+                     <a href="#">Our Sites</a>
+                     <a href="#">Contact</a> </div>
+            <div class="register"> 
+            <a href="#">Register</a>   </div> 
+
+        </nav>
+
+        <section class="h-text">
+            <span>Enjoy</span>
+            <h1>International Travel Agency</h1> <br>
+
+            <a href="#">Book Your Trip</a>
+        </section>
+
+    <img src="./images/Travel couple.jpg" width="400" height="400">
+    <div class="plane">
+        <img src="./images/plane.webp" width="400" height="400">
+    </div>
+
+    <form>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+        <input type="Submit" value="Submit">
+       </form>
+        
+   </header> 
+  
+  
+</body>
+
+</html>
